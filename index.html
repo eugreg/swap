@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulação de Swap de Memória</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Simulação de Swap de Memória</h1>
+
+  <div class="container">
+    <div class="memory">
+      <h2>Memória Principal (RAM)</h2>
+      <div id="ram" class="memory-block"></div>
+    </div>
+
+    <div class="memory">
+      <h2>Espaço de Swap (Disco)</h2>
+      <div id="swap" class="memory-block"></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="processName" placeholder="Nome do processo">
+    <button id="addProcess">Adicionar Processo</button>
+    <button id="simulateSwap">Simular Swap</button>
+    <button id="reset">Reiniciar</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
